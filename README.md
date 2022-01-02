@@ -32,5 +32,5 @@ The application uses two different models, one for emotion and one for Male/Fema
 ![speech_predict](https://user-images.githubusercontent.com/63209732/147882484-02b72166-9d98-440c-8f44-329ded9c5cdb.png)
 
 
-# Run Flask App
+# Run flask app
 python app.py to launch site
