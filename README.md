@@ -21,7 +21,6 @@ Used Pandas to provide the feature data for emotions and gender as input to the 
 
 ![table](https://user-images.githubusercontent.com/63209732/147884499-f308478f-1d30-4a9a-abca-3886d38b4e64.png)
 
-
 # The application
 The Speech Emotion Predictor runs as a client-side flask application.
 
@@ -34,7 +33,9 @@ The application uses two different models, one for emotion and one for Male/Fema
 # Using Random Forest Classifier
 ![home_page](https://user-images.githubusercontent.com/63209732/147882296-4597d2d9-9ed8-4c58-a075-cdc669f2b504.png)
 
-![speech_predict](https://user-images.githubusercontent.com/63209732/147882484-02b72166-9d98-440c-8f44-329ded9c5cdb.png)
+![speech_predict](https://user-images.githubusercontent.com/63209732/147885254-50161d0e-0bba-406d-921d-613989a3375d.png)
+
+
 
 
 # Run flask app
