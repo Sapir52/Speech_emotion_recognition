@@ -17,7 +17,7 @@ Used Pandas to provide the feature data for emotions and gender as input to the 
 - Using different classifiers and deep learning model to find the best model.
 - Development of recording and playback functionality: Its output allows the prediction of emotions and gender of the recorded audio.
 
-# The Results of the models
+# The results of the models
 
 ![table1](https://user-images.githubusercontent.com/63209732/147885621-80cf2845-439d-494d-9936-6c80f1c230ea.png)
 
