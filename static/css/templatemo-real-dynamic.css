@@ -1,0 +1,80 @@
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 20px;
+  overflow-x: hidden;
+  background-color: #a0acec;
+}
+/* one line lenght */
+.tm-container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+/* longht line 2*/
+.container-fluid { 
+  max-width: 90%;
+  padding-top: 0px; }
+
+/* second line lenght */
+.tm-site-header {
+    background-color: #0066aa;
+    background-image: url(../img/stripe.png);
+    height: 10px;
+}
+/*line 2*/
+.tm-header-stripe {
+    height: 10px;
+    width: 85%;
+    background-color: #0066aa; /*#474849;*/
+    background-image: url(../img/stripe-short.png);
+}
+/* add butoon Home */
+.tm-site-header-right {
+    padding-bottom: 10px;
+}
+/* pass to  Home page*/
+.nav-item {  
+  font-size: 1.4rem;
+  transform: skew(-20deg, 0);
+  transition: all 0.3s ease;
+  margin-right: auto;
+}
+/* color of Home button*/
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: black;
+  padding: 14px 20px;
+  transform: skew(10deg, 0);
+}
+.nav-item.active,
+.nav-item:hover {
+  background-color: #0066aa;
+}
+.nav-item.active .nav-link,
+.nav-item:hover .nav-link {
+  color: black;
+}
+/*add butoons Start and end recording*/
+.btn {
+  font-size: 1.2rem;
+  padding: 10px 35px;
+  border: none;
+}
+@media (max-width: 899px){
+  .btn {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    border: none;
+  }
+}
+/* record backgroud*/
+.jumbotron {
+  background-size: cover;
+  }
+/* add image */
+.bgimg {
+  background-image: url('../img/speech_background.jpg');
+  background-size: cover ;
+  background-position: center top;
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage Speech Emotion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="../static/css/templatemo-real-dynamic.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visuals</title>
+</head>
+
+<body>
+    <div class="tm-container">
+        <div class="tm-site-header"></div> <!-- tm-site-header -->
+            <div class="row">
+                <div class="col-lg-3 text-center">
+                    <p><img src="../static/img/logo.png" alt="Emotion Predictor" width="100%"></p>
+                </div>
+                <!-- add button Home -->
+                <div class="col-lg-9 tm-site-header-right">
+                    <!-- add button -->
+                    <div class="navbar navbar-expand-lg ">
+                        <!-- Collapse button -->
+                        <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse"
+                            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation"><span class="dark-blue-text"><i
+                                    class="fas fa-bars text-white"></i></span></button>
+                        <!-- Collapsible content -->
+                        <div class="collapse navbar-collapse tm-nav" id="navbarNav">
+                            <!-- Links -->
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link tm-nav-link" href="/">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                            </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end of NAV -->
+    <div class="tm-header-stripe w-100 container-fluid"></div>
+    <div class="container-fluid text-white text-center">
+        <h3>How You Really Feel?</h3>
+    </div>
+    <div class="container-fluid">
+        <!-- add image -->
+        <div class="row bgimg">
+            <div class="col-0"></div>
+            <div class="col-6"><br>
+                <div class="jumbotron text-center">
+                    <div>
+                        <h1>Record a sound!</h1>
+                        <p>Record a 3-5 second clip of speech and we will try to determine
+                            the major emotion.</p>
+                        <hr>
+                    </div>
+                    <div>
+                        <button class="btn btn-success btn-lg" role="button" id="startRecord"
+                            onclick="startAudioRecord()">Start
+                            recording</button>
+                        <button class="btn btn-danger btn-lg" role="button" id="stopRecord" disabled
+                            onclick="stopAudioRecord()">End
+                            recording</button>
+                    </div>
+                    <hr>
+                    <ol id="recordingsList"></ol>
+                </div>
+            </div>
+            <div class="col-6"></div>
+        </div>
+    </div>
+    <!-- show audio emotion polt -->
+    <div class="tm-container">
+        <div id="result"></div>
+    </div>
+    <div class=" container-fluid"></div>
+
+    <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    <script src="../static/js/barChart.js"></script>
+    <script src="../static/js/record.js"></script>
+    <script src="../static/js/jquery-3.4.1.min.js"></script>
+    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/js/tooplate-script.js"></script>
+    <script src="https://d3js.org/d3.v4.js" charset="utf-8"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+</body>
+
+</html>
