@@ -9,6 +9,12 @@ natural, calm, happy, sad, angry, scared, disgust, surprised.
 
 In addition, allows to identify the gender of the user: male, female.
 
+# Technologies
+- ML
+- Jupyter notebook | pycharm
+- Flask
+- JavaScript | HTML | CSS
+
 # Pipeline
 
 - Data from CSV files of audio voices.
