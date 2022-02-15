@@ -1,5 +1,5 @@
 # Speech emotion recognition
-Speech Emotions Predictor is an application that allows users to record, and playback short audio file and its built-in Machine Learning model will predict the range of emotions and the gender of the audio clip. 
+Speech Emotions Predictor is an application that allows users to record and playback short audio file and Machine Learning model will predict the range of emotions and the gender of the audio clip. 
 
 There are options to compare the frequencies and other attributes for various emotions to see how they show up on a scale. 
 
